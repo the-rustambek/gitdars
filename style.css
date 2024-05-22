@@ -1,3 +1,42 @@
-body{
-    background-color: yellow;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact {
+    background: #007df1;
+    height: 100vh;
+    width: 100%;
+}
+.contact__main__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 6rem;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form input {
+    width: 500px;
+    height: 50px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+
+form textarea {
+    resize: none;
+    margin-top: 10px;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
 }
