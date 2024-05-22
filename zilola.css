@@ -1,0 +1,9 @@
+.nav-box{
+    width: 800px;
+    height: 500px;
+    border: 2px solid blue;
+    padding-left: 20px;
+}
+.nav-text{
+    font-family: sans-serif;
+}
